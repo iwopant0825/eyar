@@ -3,6 +3,7 @@ import Header from "../components/public/Header";
 import SoundSection from "../components/Home/SoundSection";
 import AlertSection from "../components/Home/AlertSection";
 import LightSection from "../components/Home/LightSection";
+import SLevelSection from "../components/Home/SLevelSection";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
   
             <View style={styles.content}>
               <SoundSection/>
-              
+              <SLevelSection/>
             </View>
           </ScrollView>          
         </View>

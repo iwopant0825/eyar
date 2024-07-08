@@ -12,14 +12,14 @@ import Setting from "./View/Setting";
 import Alert from "./View/Alert";
 
 export default function App() {
-  useEffect(() => {
-    async function requestPermissions() {
-      // 알림 권한 요청
-      const status = await notifee.requestPermission();
-    }
+  // useEffect(() => {
+  //   async function requestPermissions() {
+  //     // 알림 권한 요청
+  //     const status = await notifee.requestPermission();
+  //   }
 
-    requestPermissions();
-  }, []);
+  //   requestPermissions();
+  // }, []);
   const Stack = createNativeStackNavigator();
 
   return (
